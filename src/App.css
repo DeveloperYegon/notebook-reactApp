@@ -1,0 +1,20 @@
+.main{
+   /* border: 2px solid #000; */
+    width: 100%;
+    margin: 0;
+    height: 95vh;
+}
+.header{
+    text-align: center;
+    border-bottom: 2px solid #000 ;
+    margin: 10px;
+}
+.title{
+    color:rgba(0,0,255,.5);
+    font-family: cursive;
+}
+.footer{
+    text-align: center;
+    border-top: 2px solid #000 ;
+    margin: 10px;
+}
