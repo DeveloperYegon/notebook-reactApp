@@ -1,18 +1,55 @@
+*,html{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .main{
    /* border: 2px solid #000; */
     width: 100%;
     margin: 0;
+    /* background-color: aqua; */
     height: 95vh;
 }
+/* =====================Header customizations */
 .header{
+    position: fixed;
+    top: 0;
+    width: 100%;
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color:#010506;
+    margin: 0;
+    vertical-align: middle;
+    color:#fff;
     border-bottom: 2px solid #000 ;
-    margin: 10px;
+   
+}
+.logoside, .toggle, .menu-links{
+    border:#fff solid 2px;
 }
 .title{
-    color:rgba(0,0,255,.5);
+    color:rgba(255,255,255);
     font-family: cursive;
+    font-weight: bolder;
 }
+
+ ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+li{
+    padding-left: 20px;
+}
+/* Main content customizations */
+.notes{
+    font-display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+/* Footer customizations */
 .footer{
     text-align: center;
     border-top: 2px solid #000 ;

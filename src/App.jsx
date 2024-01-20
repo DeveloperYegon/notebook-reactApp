@@ -6,7 +6,6 @@ import Notes from "./assets/Components/Notes"
 
 
 function App() {
-
   return(
     <div className="main">
       <Header />
